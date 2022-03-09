@@ -1,0 +1,31 @@
+export enum Color {
+  White_color = "#fff",
+  Brand_Color_Banner = "#3abfba",
+  Brand_Color = "#FF2020",
+  Heading_Color = "#2A2A2A",
+  Title_Color = "#313131",
+  Dark_Color = "#474747",
+  Dark_light_color = "#707070",
+  Gray_Color = "#ABABAB",
+  Gray_Dark_Color = "#676767",
+  Gray_Light_Bg = "#F9F6F6",
+  Menu_Bg = "#F1F1F1",
+  Black = "#000000",
+}
+
+export enum FontSize {
+  F12 = ".75rem",
+  F13 = ".75rem",
+  F14 = "14px",
+  F16 = "1rem",
+  F18 = "1.125rem",
+  F20 = "1.25rem",
+  F24 = "1.5rem",
+  F28 = "1.75rem",
+  F38 = "2.375rem",
+  F44 = "2.375rem",
+  F52 = "3.25rem",
+  F50 = "3.125rem",
+  F60 = "3.75rem",
+  F82 = "4.125rem",
+}
