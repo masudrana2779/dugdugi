@@ -1,6 +1,5 @@
 import Head from "next/head";
 import React, { FC, ReactElement } from "react";
-import LefSiteBarComponent from "./LeftSiteBar/LeftSiteBar.Component";
 import { Main, MainBody } from "./styledComponents/global.styled";
 
 type LayoutProps = {
@@ -72,7 +71,6 @@ const Layout: FC<LayoutProps> = ({
         <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
       </Head>
       <Main>
-        <LefSiteBarComponent />
         <MainBody>{children}</MainBody>
       </Main>
     </>

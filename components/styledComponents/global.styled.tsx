@@ -182,7 +182,6 @@ export const DashBoardCard = styled.div<DashBoardCardProps>`
 `;
 
 export const Main = styled.main`
-  display: flex;
   padding: 30px;
 `;
 
